@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" >
+            function add()
+            {
+                var result;
+                result=a+b+c;
+                document.write(result);
+
+            }
+        </script>
+    </head>
+    <body>
+        <table border="2">
+            <tr>
+                <td>
+                    a
+                </td>
+                <td>
+                    <input type="integer" name="a">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    b
+                </td>
+                <td>
+                    <input type="integer" name="b">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    c
+                </td>
+                <td>
+                    <input type="integer"  name="c">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" value="add" onclick="add()">
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

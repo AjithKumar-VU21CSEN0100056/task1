@@ -1,0 +1,16 @@
+h1{
+    padding: 30px;
+}
+h2{
+    text-align: center;
+}
+body{
+    background-color: pink;
+}
+div{
+    text-align: center;
+}
+button{
+    background-color: red;
+    text-align: left;
+}
